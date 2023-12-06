@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--Plus-jakart,'Plus Jakarta Sans');
+}
+:root{
+    --FFFFFF:#FFF;
+    --83869A:#83869A;
+    --13183F:#13183F;
+    --Plus-jakart:'Plus Jakarta Sans';
+}
+@font-face{
+    font-family: 'Plus Jakarta Sans';
+    src:url(../fonts/PlusJakartaSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Plus Jakarta Sans';
+    src:url(../fonts/PlusJakartaSans-Medium.ttf);
+    font-weight: 500;
+}
+.rotate{
+    width: 317px;
+    position: absolute;
+    /* top: -50%; */
+    bottom: 0;
+    left:60%;
+    right: 80px;
+height: 1008px;
+transform: rotate(45deg);
+flex-shrink: 0;
+border-radius: 158.5px;
+background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+}
+main{
+    position: relative;
+}
+.header-section>.container{
+    width: 100%;
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-div>img{
+    width: 111.168px;
+    height: 27.684px;
+    object-fit: cover;
+    object-position: center;
+}
+.header-div>button{
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 28px;
+    color: var(--FFFFFF, #FFF);
+    background: var(--13183F, #13183F);
+
+}
+.div-button{
+    margin-right: 100px;
+}
+.skill-container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.skill-div{
+    width: 50%;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* padding: 30px; */
+    background-color:yellow;
+}
+.skill-title{
+    width: 61%;
+    margin-bottom: 29px;
+}
+.title-about{
+    color: var(--13183F, #13183F);
+/* font-feature-settings: 'clig' off, 'liga' off; */
+    font-size: 56px;
+    font-weight: 800;
+}
+.skill-subtitle{
+    width: 57%;
+}
+.subtitle-about{
+    color: var(--83869A, #83869A);
+/* font-feature-settings: 'clig' off, 'liga' off; */
+    font-size: 18px;
+    font-weight: 500;
+
+}
