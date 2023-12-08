@@ -207,7 +207,7 @@ body{
 }
 .card-div--items {
   border-radius: 15px;
-  background: var(--Gradient-1,linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%));
+  background: var(--Gradient-1,linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)) !important;
 }
 .first-paragraf {
   width: 286px;
